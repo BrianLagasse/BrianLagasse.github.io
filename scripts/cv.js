@@ -12,7 +12,10 @@ BML.cv = (function () {
 
       var _dialogBody = "<div id='dialogBody'><b>Section 1</b><br><br>";
 
-     _dialogBody += "This is section 1 </div>";
+     _dialogBody += "<table><tr>";
+     _dialogBody += "<td>2015 - current</td><td>Position</td><td>Company</td></tr>";
+     _dialogBody += "<tr><td colspan='3'>I didthis and that.</td></tr>"
+     _dialogBody += "</table></div>";
 
       BML.$("#dialog-div").dialog({
           modal: true,
