@@ -1,7 +1,7 @@
 var BML = BML || {};
 BML.$ = jQuery.noConflict();
 
-cv = (function () {
+BML.cv = (function () {
    "use strict";
 
    var showSection1 =  function() {
