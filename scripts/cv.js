@@ -13,7 +13,7 @@ BML.cv = (function () {
       var _dialogBody = "<div id='dialogBody'><b>Section 1</b><br><br>";
 
      _dialogBody += "<table><tr>";
-     _dialogBody += "<td>RPI Crest</td>";
+     _dialogBody += "<td><img src='/images/RPICrest.jpg'/></td>";
      _dialogBody += "<td><table>";
      _dialogBody += "<tr><td>Rensselaer Polytechnic Institute</td></tr>"
      _dialogBody += "<tr><td>Bachelor of Science</td></tr>"
@@ -26,8 +26,8 @@ BML.cv = (function () {
           resizable: false,
           show: 'blind',
           hide: 'blind',
-          height: 400,
-          width: 600,
+          height: 300,
+          width: 400,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
           },
