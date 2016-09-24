@@ -13,7 +13,7 @@ BML.cv = (function () {
       var _dialogBody = "<div id='dialogBody'><b>Section 1</b><br><br>";
 
      _dialogBody += "<table><tr>";
-     _dialogBody += "<td><img src='/images/RPICrest.jpg'/></td>";
+     _dialogBody += "<td><img src='/images/RPICrest.jpg' width="100" height="100"/></td>";
      _dialogBody += "<td><table>";
      _dialogBody += "<tr><td>Rensselaer Polytechnic Institute</td></tr>"
      _dialogBody += "<tr><td>Bachelor of Science</td></tr>"
