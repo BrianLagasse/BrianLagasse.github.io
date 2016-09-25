@@ -4,7 +4,7 @@ BML.$ = jQuery.noConflict();
 BML.cv = (function () {
    "use strict";
 
-   var showECerts =  function() {
+   var showCerts =  function() {
       if (document.getElementById('dialogBody')) {
           var elem = document.getElementById('dialogBody');
           elem.parentNode.removeChild(elem);
@@ -120,6 +120,7 @@ BML.cv = (function () {
    };;
 
   return {
+     showCerts : showCerts,
      showEducation : showEducation,
      showExperience : showExperience
  };
