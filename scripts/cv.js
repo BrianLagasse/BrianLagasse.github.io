@@ -4,7 +4,44 @@ BML.$ = jQuery.noConflict();
 BML.cv = (function () {
    "use strict";
 
-   var showEducation =  function() {
+   var showECerts =  function() {
+      if (document.getElementById('dialogBody')) {
+          var elem = document.getElementById('dialogBody');
+          elem.parentNode.removeChild(elem);
+      }
+
+      var _dialogBody = "<div id='dialogBody'><b>Certifications</b><br><br>";
+
+     _dialogBody += "<table>";
+     _dialogBody += "<tr><td>CompTIA Security  ce</td><td>January 2015</td></tr>"
+     _dialogBody += "<tr><td>MCTS: SharePoint 2010, Application Development</td><td>June 2015</td></tr>"
+     _dialogBody += "</table></div>";
+
+      BML.$("#dialog-div").dialog({
+          modal: true,
+          draggable: false,
+          resizable: false,
+          show: 'blind',
+          hide: 'blind',
+          height: 300,
+          width: 500,
+          open: function () {
+             BML.$("#dialog-div").append(_dialogBody );
+          },
+          buttons: [
+
+           {
+               text: "Close",
+               click: function () {
+                   BML.$("#dialog-div").dialog("close");
+
+               }
+           }
+          ]
+      });
+   },
+   
+   showEducation =  function() {
       if (document.getElementById('dialogBody')) {
           var elem = document.getElementById('dialogBody');
           elem.parentNode.removeChild(elem);
