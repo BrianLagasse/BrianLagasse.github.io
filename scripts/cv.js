@@ -25,7 +25,7 @@ BML.cv = (function () {
           show: 'blind',
           hide: 'blind',
           height: 300,
-          width: 500,
+          width: 700,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
           },
