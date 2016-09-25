@@ -13,8 +13,9 @@ BML.cv = (function () {
       var _dialogBody = "<div id='dialogBody'><b>Certifications</b><br><br>";
 
      _dialogBody += "<table>";
-     _dialogBody += "<tr><td>CompTIA Security  ce</td><td>January 2015</td></tr>"
+     _dialogBody += "<tr><td>CompTIA Security+  ce</td><td>January 2015</td></tr>"
      _dialogBody += "<tr><td>MCTS: SharePoint 2010, Application Development</td><td>June 2015</td></tr>"
+     _dialogBody += "<tr><td>MCPS: Microsoft Certified Professional</td><td>June 2015</td></tr>"
      _dialogBody += "</table></div>";
 
       BML.$("#dialog-div").dialog({
