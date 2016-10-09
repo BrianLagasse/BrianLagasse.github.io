@@ -12,11 +12,12 @@ BML.cv = (function () {
 
       var _dialogBody = "<div id='dialogBody'><b>Certifications</b><br><br>";
 
-     _dialogBody += "<table>";
-     _dialogBody += "<tr><td>CompTIA Security+  ce</td><td>January 2015</td></tr>"
-     _dialogBody += "<tr><td>MCTS: SharePoint 2010, Application Development</td><td>June 2015</td></tr>"
-     _dialogBody += "<tr><td>MCPS: Microsoft Certified Professional</td><td>June 2015</td></tr>"
-     _dialogBody += "</table></div>";
+      _dialogBody += "<table>";
+      _dialogBody += "<tr><td>CompTIA Security+</td><td align='center'>January 2015</td></tr>"
+      _dialogBody += "<tr><td>MCTS: SharePoint 2010, Application Development</td><td align='center'>June 2015</td></tr>"
+      _dialogBody += "<tr><td>MCPS: Microsoft Certified Professional</td><td align='center'>June 2015</td></tr>"
+      _dialogBody += "</table>";
+      _dialogBody += "<br><br><a target='_blank' href = /bml_resume.doc'><i>Résumé</i> (Word)</a></div>";
 
       BML.$("#dialog-div").dialog({
           modal: true,
