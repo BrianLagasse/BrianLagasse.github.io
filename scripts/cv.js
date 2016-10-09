@@ -16,8 +16,7 @@ BML.cv = (function () {
       _dialogBody += "<tr><td>CompTIA Security+</td><td align='center'>January 2015</td></tr>"
       _dialogBody += "<tr><td>MCTS: SharePoint 2010, Application Development</td><td align='center'>June 2015</td></tr>"
       _dialogBody += "<tr><td>MCPS: Microsoft Certified Professional</td><td align='center'>June 2015</td></tr>"
-      _dialogBody += "</table>";
-      _dialogBody += "<br><br><a target='_blank' href = /bml_resume.doc'><i>Résumé</i> (Word)</a></div>";
+      _dialogBody += "</table></div>";
 
       BML.$("#dialog-div").dialog({
           modal: true,
