@@ -132,8 +132,12 @@ showSkills =  function() {
       _dialogBody += "<tr><td align='center'>JavaScript</td><td align='center'>jQuery</td></tr>"
       _dialogBody += "<tr><td align='center'>C# .Net</td><td align='center'>VB .Net</td></tr>"
       _dialogBody += "<tr><td align='center'>C/C++</td><td align='center'>PL/SQL</td></tr>"
+      _dialogBody += "</table>";
+      _dialogBody += "<br><br><table>";
       _dialogBody += "<tr><td span='2'><b>Databases</b></td></tr>"     
       _dialogBody += "<tr><td align='center'>SQL Server</td><td align='center'>Oracle</td></tr>"
+      _dialogBody += "</table>";
+      _dialogBody += "<br><br><table>";
       _dialogBody += "<tr><td span='2'><b>SharePoint</b></td></tr>"     
       _dialogBody += "<tr><td align='center'>2010</td><td align='center'>2013</td></tr>"
       _dialogBody += "</table></div>";
@@ -144,8 +148,8 @@ showSkills =  function() {
           resizable: false,
           show: 'blind',
           hide: 'blind',
-          height: 500,
-          width: 750,
+          height: 400,
+          width: 500,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
           },
