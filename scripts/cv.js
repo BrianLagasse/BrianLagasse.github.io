@@ -135,7 +135,7 @@ showSkills =  function() {
       _dialogBody += "</table>";
       _dialogBody += "<br><table>";
       _dialogBody += "<tr><td span='2'><b>Databases</b></td></tr>"     
-      _dialogBody += "<tr><td align='center'>SQL Server</td><td align='center'>Oracle</td></tr>"
+      _dialogBody += "<tr><td align='center'>SQL Server</td><td align='center'>       Oracle</td></tr>"
       _dialogBody += "</table>";
       _dialogBody += "<br><table>";
       _dialogBody += "<tr><td span='2'><b>SharePoint</b></td></tr>"     
@@ -149,7 +149,7 @@ showSkills =  function() {
           show: 'blind',
           hide: 'blind',
           height: 450,
-          width: 500,
+          width: 400,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
           },
