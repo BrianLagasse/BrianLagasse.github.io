@@ -117,11 +117,55 @@ BML.cv = (function () {
            }
           ]
       });
-   };;
+   },
+
+showSkills =  function() {
+      if (document.getElementById('dialogBody')) {
+          var elem = document.getElementById('dialogBody');
+          elem.parentNode.removeChild(elem);
+      }
+
+      var _dialogBody = "<div id='dialogBody'><b>Skills</b><br><br>";
+
+      _dialogBody += "<table>";
+      _dialogBody += "<tr><td span='2'><b>Languages</b></td></tr>"
+      _dialogBody += "<tr><td align='center'>JavaScript</td><td align='center'>jQuery</td></tr>"
+      _dialogBody += "<tr><td align='center'>C# .Net</td><td align='center'>VB .Net</td></tr>"
+      _dialogBody += "<tr><td align='center'>C/C++</td><td align='center'>PL/SQL</td></tr>"
+      _dialogBody += "<tr><td span='2'><b>Databases</b></td></tr>"     
+      _dialogBody += "<tr><td align='center'>SQL Server</td><td align='center'>Oracle</td></tr>"
+      _dialogBody += "<tr><td span='2'><b>SharePoint</b></td></tr>"     
+      _dialogBody += "<tr><td align='center'>2010</td><td align='center'>2013</td></tr>"
+      _dialogBody += "</table></div>";
+
+      BML.$("#dialog-div").dialog({
+          modal: true,
+          draggable: false,
+          resizable: false,
+          show: 'blind',
+          hide: 'blind',
+          height: 500,
+          width: 750,
+          open: function () {
+             BML.$("#dialog-div").append(_dialogBody );
+          },
+          buttons: [
+
+           {
+               text: "Close",
+               click: function () {
+                   BML.$("#dialog-div").dialog("close");
+
+               }
+           }
+          ]
+      });
+   };
 
   return {
      showCerts : showCerts,
      showEducation : showEducation,
-     showExperience : showExperience
+     showExperience : showExperience,
+     showSkills : showSkills,
  };
 }());
