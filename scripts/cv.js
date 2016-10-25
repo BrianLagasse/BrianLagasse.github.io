@@ -152,6 +152,22 @@ BML.cv = (function () {
       _dialogBody += " regulations.   </td></tr>"; 
       _dialogBody += "</table><br>";
 
+      _dialogBody += "<table><tr>";
+      _dialogBody += "<td><b>3 years</b></td><td><b>Senior Computer Scientist</b></td><td><b>Computer Sciences Corporation</b></td></tr>";
+      _dialogBody += "<tr><td colspan='3'>Developed several client-server applications using Visual Basic and C++.  These ";
+      _dialogBody += "applications are used in support of the missions of NASA at Marshall Space Flight Center and include ";
+      _dialogBody += "the Centerwide Action Item Tracking System (CAITS), the Business Procurement  Request System (BPRS), ";
+      _dialogBody += "and the Travel Request System (TRS).</td></tr>"; 
+      _dialogBody += "</table><br>";
+
+      _dialogBody += "<table><tr>";
+      _dialogBody += "<td><b>5 years</b></td><td><b>Senior Computer Systems Analyst</b></td><td><b>Unisys</b></td></tr>";
+      _dialogBody += "<tr><td colspan='3'>Senior staff member on several major software development projects servicing the ";
+      _dialogBody += "United States Army and National Guard. Responsibilities included system analysis, design, C programming, ";
+      _dialogBody += "database design, data loading from existing Unix and DOS systems, customer training and maintenance.  ";
+      _dialogBody += "The projects were developed on a Unix platform using Oracle, SQL*Forms, C, and Unix shell programs.</td></tr>"; 
+      _dialogBody += "</table><br>";
+
       _dialogBody += "</div>";
 
       BML.$("#dialog-div").dialog({
