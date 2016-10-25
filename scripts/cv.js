@@ -13,9 +13,9 @@ BML.cv = (function () {
       var _dialogBody = "<div id='dialogBody'><b>Certifications</b><br><br>";
 
       _dialogBody += "<table>";
-      _dialogBody += "<tr><td>CompTIA Security+</td><td align='center'>January 2015</td></tr>"
-      _dialogBody += "<tr><td>MCTS: SharePoint 2010, Application Development</td><td align='center'>June 2015</td></tr>"
-      _dialogBody += "<tr><td>MCPS: Microsoft Certified Professional</td><td align='center'>June 2015</td></tr>"
+      _dialogBody += "<tr><td>CompTIA Security+</td></tr>"
+      _dialogBody += "<tr><td>MCTS: SharePoint 2010, Application Development</td></tr>"
+      _dialogBody += "<tr><td>MCPS: Microsoft Certified Professional</td></tr>"
       _dialogBody += "</table></div>";
 
       BML.$("#dialog-div").dialog({
@@ -91,8 +91,16 @@ BML.cv = (function () {
       var _dialogBody = "<div id='dialogBody'><b>Experience</b><br><br>";
 
      _dialogBody += "<table><tr>";
-     _dialogBody += "<td>2015 - current</td><td>Position</td><td>Company</td></tr>";
-     _dialogBody += "<tr><td colspan='3'>I did this and that.</td></tr>"
+     _dialogBody += "<td>2015 - current</td><td>Senior Developer</td><td>SAIC</td></tr>";
+     _dialogBody += "<tr><td colspan='3'>Redesigned multiple applications from an Oracle Collaboration Services (OCS)";
+     _dialogBody += " environment and deployed these into a SharePoint 2010 portal for the Army Materiel Command.  ";
+     _dialogBody += "Applications were developed using JavaScript along with several jQuery libraries and REST methods";
+     _dialogBody += " for data management. Developed Nintex workflows, branding and permissions management to customize";
+     _dialogBody += "the applications to meet customer needs.</td></tr><tr></tr>"; 
+
+     _dialogBody += "<tr><td>Fulfilled customer needs by creating a PowerShell script to synchronize user accounts across";
+     _dialogBody += " multiple SharePoint site collections.  This script automated a manual process of synchronizing over";
+     _dialogBody += " 5,000 user account accounts saving approximately 20 hours of SharePoint admin hours per month.</td></tr>"
      _dialogBody += "</table></div>";
 
       BML.$("#dialog-div").dialog({
