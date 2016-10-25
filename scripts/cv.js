@@ -98,10 +98,21 @@ BML.cv = (function () {
      _dialogBody += " for data management. Developed Nintex workflows, branding and permissions management to customize";
      _dialogBody += "the applications to meet customer needs.</td></tr><tr></tr>"; 
 
-     _dialogBody += "<tr><td>Fulfilled customer needs by creating a PowerShell script to synchronize user accounts across";
+     _dialogBody += "<tr><td colspan='3'>Fulfilled customer needs by creating a PowerShell script to synchronize user accounts across";
      _dialogBody += " multiple SharePoint site collections.  This script automated a manual process of synchronizing over";
-     _dialogBody += " 5,000 user account accounts saving approximately 20 hours of SharePoint admin hours per month.</td></tr>"
-     _dialogBody += "</table></div>";
+     _dialogBody += " 5,000 user account accounts saving approximately 20 hours of SharePoint admin hours per month.</td></tr>";
+     _dialogBody += "</table><br>";
+      
+     _dialogBody += "<table><tr>";
+     _dialogBody += "<td>2014 - 2015</td><td>Senior Developer</td><td>Dynetics Technical Services</td></tr>";
+     _dialogBody += "<tr><td colspan='3'>Develop a customized SharePoint 2013 site for NASA customers. This site ";
+     _dialogBody += "automated phone record searches on a data set of over 27 million records.  Results were returned";
+     _dialogBody += " in less than a minute even for search result sets of more than 10,000 records. The existing manual";
+     _dialogBody += " process required multiple days of effort to complete. Development was performed using JavaScript,";
+     _dialogBody += "jQuery and a REpresentational State Transfer  (REST) architecture.</td></tr><tr></tr>"; 
+     _dialogBody += "</table><br>";
+      
+     _dialogBody += "</div>";
 
       BML.$("#dialog-div").dialog({
           modal: true,
