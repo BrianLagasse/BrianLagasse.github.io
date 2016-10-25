@@ -103,13 +103,13 @@ BML.cv = (function () {
       _dialogBody += " 5,000 user account accounts saving approximately 20 hours of SharePoint admin hours per month.</td></tr>";
       _dialogBody += "</table><br>";
       
-      _dialogBody += "<table><tr><b>";
-      _dialogBody += "<td><b>2014 - 2015<</b>/td><td><b>Senior Develope</b></td><td><b>Dynetics Technical Services</b></td></tr>";
+      _dialogBody += "<table><tr>";
+      _dialogBody += "<td><b>2014 - 2015</b>/td><td><b>Senior Developer</b></td><td><b>Dynetics Technical Services</b></td></tr>";
       _dialogBody += "<tr><td colspan='3'>Developed a customized SharePoint 2013 site for NASA customers. This site ";
       _dialogBody += "automated phone record searches on a data set of over 27 million records.  Results were returned";
       _dialogBody += " in less than a minute even for search result sets of more than 10,000 records. The existing manual";
       _dialogBody += " process required multiple days of effort to complete. Development was performed using JavaScript,";
-      _dialogBody += "jQuery and a REpresentational State Transfer  (REST) architecture.</td></tr>"; 
+      _dialogBody += " jQuery and a REpresentational State Transfer  (REST) architecture.</td></tr>"; 
       _dialogBody += "</table><br>";
       
       _dialogBody += "<table><tr>";
@@ -131,6 +131,16 @@ BML.cv = (function () {
       _dialogBody += " Mapper (ORM) tool, I developed both Web Forms for front end systems and Windows Forms for Windows";
       _dialogBody += " applications.  The Windows application was used in a classified environment and was developed using";
       _dialogBody += " a Model-View-Controller (MVC) architecture.</td></tr>"; 
+      _dialogBody += "</table><br>";
+
+      _dialogBody += "<table><tr>";
+      _dialogBody += "<td><b>2003 - 2010</b></td><td><b>Senior Programmer</b></td><td><b>Jacobs</b></td></tr>";
+      _dialogBody += "<tr><td colspan='3'>Lead Application Developer for several applications developed and maintained for";
+      _dialogBody += " the U.S. Army’s Aviation and Missile Command (AMCOM).  Developed these applications using Visual Basic";
+      _dialogBody += " .NET, Oracle Forms & Reports, PL/SQL, PSP, and Pro*C and integrated them with Oracle & SQL Server";
+      _dialogBody += " databases, email servers, Active Directory, and Microsoft Office products.  Additional duties";
+      _dialogBody += " included database administration, writing Design documents, optimizing applications, assigning work";
+      _dialogBody += " to developers and reviewing developers’ code.  </td></tr>"; 
       _dialogBody += "</table><br>";
 
       _dialogBody += "</div>";
