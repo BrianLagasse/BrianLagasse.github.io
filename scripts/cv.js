@@ -104,7 +104,7 @@ BML.cv = (function () {
       _dialogBody += "</table><br>";
       
       _dialogBody += "<table><tr>";
-      _dialogBody += "<td><b>2014 - 2015</b>/td><td><b>Senior Developer</b></td><td><b>Dynetics Technical Services</b></td></tr>";
+      _dialogBody += "<td><b>2014 - 2015</b></td><td><b>Senior Developer</b></td><td><b>Dynetics Technical Services</b></td></tr>";
       _dialogBody += "<tr><td colspan='3'>Developed a customized SharePoint 2013 site for NASA customers. This site ";
       _dialogBody += "automated phone record searches on a data set of over 27 million records.  Results were returned";
       _dialogBody += " in less than a minute even for search result sets of more than 10,000 records. The existing manual";
@@ -134,13 +134,22 @@ BML.cv = (function () {
       _dialogBody += "</table><br>";
 
       _dialogBody += "<table><tr>";
-      _dialogBody += "<td><b>2003 - 2010</b></td><td><b>Senior Programmer</b></td><td><b>Jacobs</b></td></tr>";
+      _dialogBody += "<td><b>2003 - 2010</b></td><td><b>Senior Programmer</b></td><td><b>Jacobs Engineering</b></td></tr>";
       _dialogBody += "<tr><td colspan='3'>Lead Application Developer for several applications developed and maintained for";
       _dialogBody += " the U.S. Army’s Aviation and Missile Command (AMCOM).  Developed these applications using Visual Basic";
       _dialogBody += " .NET, Oracle Forms & Reports, PL/SQL, PSP, and Pro*C and integrated them with Oracle & SQL Server";
       _dialogBody += " databases, email servers, Active Directory, and Microsoft Office products.  Additional duties";
       _dialogBody += " included database administration, writing Design documents, optimizing applications, assigning work";
       _dialogBody += " to developers and reviewing developers’ code.  </td></tr>"; 
+      _dialogBody += "</table><br>";
+
+      _dialogBody += "<table><tr>";
+      _dialogBody += "<td><b>1996 - 2003</b></td><td><b>Senior Consultant</b></td><td><b>CSC Consulting</b></td></tr>";
+      _dialogBody += "<tr><td colspan='3'>Lead Technical Consultant for PeopleSoft implementations. Primary responsibilities";
+      _dialogBody += " were performing system customizations and optimizations by using PeopleTools, PeopleCode, SQR, Crystal";
+      _dialogBody += " Reports, HTML, and Unix scripts.  The customizations of the PeopleSoft application provided clients";
+      _dialogBody += " the functionality required by government pay regulations, company policies, and union time reporting";
+      _dialogBody += " regulations.   </td></tr>"; 
       _dialogBody += "</table><br>";
 
       _dialogBody += "</div>";
