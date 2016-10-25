@@ -90,29 +90,41 @@ BML.cv = (function () {
 
       var _dialogBody = "<div id='dialogBody'><b>Experience</b><br><br>";
 
-     _dialogBody += "<table><tr>";
-     _dialogBody += "<td>2015 - current</td><td>Senior Developer</td><td>SAIC</td></tr>";
-     _dialogBody += "<tr><td colspan='3'>Redesigned multiple applications from an Oracle Collaboration Services (OCS)";
-     _dialogBody += " environment and deployed these into a SharePoint 2010 portal for the Army Materiel Command.  ";
-     _dialogBody += "Applications were developed using JavaScript along with several jQuery libraries and REST methods";
-     _dialogBody += " for data management. Developed Nintex workflows, branding and permissions management to customize";
-     _dialogBody += "the applications to meet customer needs.</td></tr><tr></tr>"; 
+      _dialogBody += "<table><tr><b>";
+      _dialogBody += "<td>2015 - current</td><td>Senior Developer</td><td>Science Applications International Corporation</td></b></tr>";
+      _dialogBody += "<tr><td colspan='3'>Redesigned multiple applications from an Oracle Collaboration Services (OCS)";
+      _dialogBody += " environment and deployed these into a SharePoint 2010 portal for the Army Materiel Command.  ";
+      _dialogBody += "Applications were developed using JavaScript along with several jQuery libraries and REST methods";
+      _dialogBody += " for data management. Developed Nintex workflows, branding and permissions management to customize";
+      _dialogBody += "the applications to meet customer needs.</td></tr><tr></tr>"; 
 
-     _dialogBody += "<tr><td colspan='3'>Fulfilled customer needs by creating a PowerShell script to synchronize user accounts across";
-     _dialogBody += " multiple SharePoint site collections.  This script automated a manual process of synchronizing over";
-     _dialogBody += " 5,000 user account accounts saving approximately 20 hours of SharePoint admin hours per month.</td></tr>";
-     _dialogBody += "</table><br>";
+      _dialogBody += "<tr><td colspan='3'>Fulfilled customer needs by creating a PowerShell script to synchronize user accounts across";
+      _dialogBody += " multiple SharePoint site collections.  This script automated a manual process of synchronizing over";
+      _dialogBody += " 5,000 user account accounts saving approximately 20 hours of SharePoint admin hours per month.</td></tr>";
+      _dialogBody += "</table><br>";
       
-     _dialogBody += "<table><tr>";
-     _dialogBody += "<td>2014 - 2015</td><td>Senior Developer</td><td>Dynetics Technical Services</td></tr>";
-     _dialogBody += "<tr><td colspan='3'>Develop a customized SharePoint 2013 site for NASA customers. This site ";
-     _dialogBody += "automated phone record searches on a data set of over 27 million records.  Results were returned";
-     _dialogBody += " in less than a minute even for search result sets of more than 10,000 records. The existing manual";
-     _dialogBody += " process required multiple days of effort to complete. Development was performed using JavaScript,";
-     _dialogBody += "jQuery and a REpresentational State Transfer  (REST) architecture.</td></tr><tr></tr>"; 
-     _dialogBody += "</table><br>";
+      _dialogBody += "<table><tr><b>";
+      _dialogBody += "<td>2014 - 2015</td><td>Senior Developer</td><td>Dynetics Technical Services</td></b></tr>";
+      _dialogBody += "<tr><td colspan='3'>Developed a customized SharePoint 2013 site for NASA customers. This site ";
+      _dialogBody += "automated phone record searches on a data set of over 27 million records.  Results were returned";
+      _dialogBody += " in less than a minute even for search result sets of more than 10,000 records. The existing manual";
+      _dialogBody += " process required multiple days of effort to complete. Development was performed using JavaScript,";
+      _dialogBody += "jQuery and a REpresentational State Transfer  (REST) architecture.</td></tr>"; 
+      _dialogBody += "</table><br>";
       
-     _dialogBody += "</div>";
+      _dialogBody += "<table><tr><b>";
+      _dialogBody += "<td>2013 - 2014</td><td>Associate</td><td>Booz Allen Hamilton</td></b></tr>";
+      _dialogBody += "<tr><td colspan='3'>Technical team lead for a SharePoint project that was highly customized to meet";
+      _dialogBody += " client needs.  Customizations were made using VB.Net and C#.Net.  Assumed maintenance activities to";
+      _dialogBody += " The site that had become non-functional after being migrated from a non-classified site to a SIPR";
+      _dialogBody += " environment.  I corrected the major defects to the system and provided additional system enhancements.";
+      _dialogBody += "Tasks included creating and deploying SharePoint web parts, customizing and implementing a Forms Based";
+      _dialogBody += " Authentication solution, rewriting external interfaces from Access and Excel that had become incompatible";
+      _dialogBody += " with the SharePoint site, creating a data audit capability,  performing SQL Server DBA activities and";
+      _dialogBody += " Windows Server system administration. </td></tr>"; 
+      _dialogBody += "</table><br>";
+
+      _dialogBody += "</div>";
 
       BML.$("#dialog-div").dialog({
           modal: true,
