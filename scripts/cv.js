@@ -90,8 +90,8 @@ BML.cv = (function () {
 
       var _dialogBody = "<div id='dialogBody'><b>Experience</b><br><br>";
 
-      _dialogBody += "<table><tr><b>";
-      _dialogBody += "<td>2015 - current</td><td>Senior Developer</td><td>Science Applications International Corporation</td></b></tr>";
+      _dialogBody += "<table><tr>";
+      _dialogBody += "<td><b>2015 - current</b></td><td><b>Senior Developer</b></td><td><b>Science Applications International Corporation</b></td></tr>";
       _dialogBody += "<tr><td colspan='3'>Redesigned multiple applications from an Oracle Collaboration Services (OCS)";
       _dialogBody += " environment and deployed these into a SharePoint 2010 portal for the Army Materiel Command.  ";
       _dialogBody += "Applications were developed using JavaScript along with several jQuery libraries and REST methods";
@@ -104,7 +104,7 @@ BML.cv = (function () {
       _dialogBody += "</table><br>";
       
       _dialogBody += "<table><tr><b>";
-      _dialogBody += "<td>2014 - 2015</td><td>Senior Developer</td><td>Dynetics Technical Services</td></b></tr>";
+      _dialogBody += "<td><b>2014 - 2015<</b>/td><td><b>Senior Develope</b></td><td><b>Dynetics Technical Services</b></td></tr>";
       _dialogBody += "<tr><td colspan='3'>Developed a customized SharePoint 2013 site for NASA customers. This site ";
       _dialogBody += "automated phone record searches on a data set of over 27 million records.  Results were returned";
       _dialogBody += " in less than a minute even for search result sets of more than 10,000 records. The existing manual";
@@ -112,8 +112,8 @@ BML.cv = (function () {
       _dialogBody += "jQuery and a REpresentational State Transfer  (REST) architecture.</td></tr>"; 
       _dialogBody += "</table><br>";
       
-      _dialogBody += "<table><tr><b>";
-      _dialogBody += "<td>2013 - 2014</td><td>Associate</td><td>Booz Allen Hamilton</td></b></tr>";
+      _dialogBody += "<table><tr>";
+      _dialogBody += "<td><b>2013 - 2014</b></td><td><b>Associate</b></td><td><b>Booz Allen Hamilton</b></td></tr>";
       _dialogBody += "<tr><td colspan='3'>Technical team lead for a SharePoint project that was highly customized to meet";
       _dialogBody += " client needs.  Customizations were made using VB.Net and C#.Net.  Assumed maintenance activities to";
       _dialogBody += " The site that had become non-functional after being migrated from a non-classified site to a SIPR";
@@ -122,6 +122,15 @@ BML.cv = (function () {
       _dialogBody += " Authentication solution, rewriting external interfaces from Access and Excel that had become incompatible";
       _dialogBody += " with the SharePoint site, creating a data audit capability,  performing SQL Server DBA activities and";
       _dialogBody += " Windows Server system administration. </td></tr>"; 
+      _dialogBody += "</table><br>";
+
+      _dialogBody += "<table><tr>";
+      _dialogBody += "<td><b>2010 - 2013</b></td><td><b>Senior Programmer</b></td><td><b>Kratos</b></td></tr>";
+      _dialogBody += "<tr><td colspan='3'>Application Developer for the Missile Defense Data Center's (MDDC) Data Management";
+      _dialogBody += " System. Using Visual Studio 2008 C# .Net, Microsoft SQL Server and NHibernate as the Object-Relational";
+      _dialogBody += " Mapper (ORM) tool, I developed both Web Forms for front end systems and Windows Forms for Windows";
+      _dialogBody += " applications.  The Windows application was used in a classified environment and was developed using";
+      _dialogBody += " a Model-View-Controller (MVC) architecture.</td></tr>"; 
       _dialogBody += "</table><br>";
 
       _dialogBody += "</div>";
@@ -133,7 +142,7 @@ BML.cv = (function () {
           show: 'blind',
           hide: 'blind',
           height: 800,
-          width: 600,
+          width: 1000,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
           },
