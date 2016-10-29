@@ -207,12 +207,8 @@ showSkills =  function() {
       _dialogBody += "<tr><td></td><td align='center'>JavaScript</td><td align='center'>jQuery</td></tr>"
       _dialogBody += "<tr><td></td><td align='center'>C# .Net</td><td align='center'>VB .Net</td></tr>"
       _dialogBody += "<tr><td></td><td align='center'>C/C++</td><td align='center'>PL/SQL</td></tr>"
-      _dialogBody += "</table>";
-      _dialogBody += "<br><table>";
       _dialogBody += "<tr><td span='3'><b>Databases</b></td></tr>"     
       _dialogBody += "<tr><td></td><td align='center'>Oracle</td><td align='center'>SQL Server</td></tr>"
-      _dialogBody += "</table>";
-      _dialogBody += "<br><table>";
       _dialogBody += "<tr><td span='3'><b>SharePoint</b></td></tr>"     
       _dialogBody += "<tr><td></td><td align='center'>2010</td><td align='center'>2013</td></tr>"
       _dialogBody += "</table></div>";
