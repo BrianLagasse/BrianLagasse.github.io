@@ -25,7 +25,7 @@ BML.cv = (function () {
           show: 'blind',
           hide: 'blind',
           height: 300,
-          width: 500,
+          width: 450,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
           },
@@ -203,18 +203,18 @@ showSkills =  function() {
       var _dialogBody = "<div id='dialogBody'><b>Skills</b><br><br>";
 
       _dialogBody += "<table>";
-      _dialogBody += "<tr><td span='2'><b>Languages</b></td></tr>"
-      _dialogBody += "<tr><td align='center'>JavaScript</td><td align='center'>jQuery</td></tr>"
-      _dialogBody += "<tr><td align='center'>C# .Net</td><td align='center'>VB .Net</td></tr>"
-      _dialogBody += "<tr><td align='center'>C/C++</td><td align='center'>PL/SQL</td></tr>"
+      _dialogBody += "<tr><td><b>Languages</b></td><td></td><td></td></tr>"
+      _dialogBody += "<tr><td></td><td align='center'>JavaScript</td><td align='center'>jQuery</td></tr>"
+      _dialogBody += "<tr><td></td><td align='center'>C# .Net</td><td align='center'>VB .Net</td></tr>"
+      _dialogBody += "<tr><td></td><td align='center'>C/C++</td><td align='center'>PL/SQL</td></tr>"
       _dialogBody += "</table>";
       _dialogBody += "<br><table>";
-      _dialogBody += "<tr><td span='2'><b>Databases</b></td></tr>"     
+      _dialogBody += "<tr><td><b>Databases</b></td><td></td><td></td></tr>"     
       _dialogBody += "<tr><td align='center'>Oracle</td><td align='center'>SQL Server</td></tr>"
       _dialogBody += "</table>";
       _dialogBody += "<br><table>";
-      _dialogBody += "<tr><td span='2'><b>SharePoint</b></td></tr>"     
-      _dialogBody += "<tr><td align='center'>2010</td><td align='center'>2013</td></tr>"
+      _dialogBody += "<tr><td><b>SharePoint</b></td><td></td><td></td></tr>"     
+      _dialogBody += "<tr><td></td><td align='center'>2010</td><td align='center'>2013</td></tr>"
       _dialogBody += "</table></div>";
 
       BML.$("#dialog-div").dialog({
