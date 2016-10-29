@@ -13,9 +13,9 @@ BML.cv = (function () {
       var _dialogBody = "<div id='dialogBody'><b>Certifications</b><br><br>";
 
       _dialogBody += "<table>";
-      _dialogBody += "<tr><td>CompTIA Security+</td></tr>"
-      _dialogBody += "<tr><td>MCTS: SharePoint 2010, Application Development</td></tr>"
-      _dialogBody += "<tr><td>MCPS: Microsoft Certified Professional</td></tr>"
+      _dialogBody += "<tr><td align='center'>CompTIA Security+</td></tr>"
+      _dialogBody += "<tr><td align='center'>MCPS: Microsoft Certified Professional</td></tr>"
+      _dialogBody += "<tr><td align='center'>MCTS: SharePoint 2010, Application Development</td></tr>"
       _dialogBody += "</table></div>";
 
       BML.$("#dialog-div").dialog({
@@ -25,7 +25,7 @@ BML.cv = (function () {
           show: 'blind',
           hide: 'blind',
           height: 300,
-          width: 600,
+          width: 500,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
           },
