@@ -203,17 +203,17 @@ showSkills =  function() {
       var _dialogBody = "<div id='dialogBody'><b>Skills</b><br><br>";
 
       _dialogBody += "<table>";
-      _dialogBody += "<tr><td><b>Languages</b></td><td></td><td></td></tr>"
+      _dialogBody += "<tr><td span='3'><b>Languages</b></td></tr>"
       _dialogBody += "<tr><td></td><td align='center'>JavaScript</td><td align='center'>jQuery</td></tr>"
       _dialogBody += "<tr><td></td><td align='center'>C# .Net</td><td align='center'>VB .Net</td></tr>"
       _dialogBody += "<tr><td></td><td align='center'>C/C++</td><td align='center'>PL/SQL</td></tr>"
       _dialogBody += "</table>";
       _dialogBody += "<br><table>";
-      _dialogBody += "<tr><td><b>Databases</b></td><td></td><td></td></tr>"     
+      _dialogBody += "<tr><td span='3'><b>Databases</b></td></tr>"     
       _dialogBody += "<tr><td align='center'>Oracle</td><td align='center'>SQL Server</td></tr>"
       _dialogBody += "</table>";
       _dialogBody += "<br><table>";
-      _dialogBody += "<tr><td><b>SharePoint</b></td><td></td><td></td></tr>"     
+      _dialogBody += "<tr><td span='3'><b>SharePoint</b></td></tr>"     
       _dialogBody += "<tr><td></td><td align='center'>2010</td><td align='center'>2013</td></tr>"
       _dialogBody += "</table></div>";
 
