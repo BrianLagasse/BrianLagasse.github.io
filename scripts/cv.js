@@ -25,7 +25,7 @@ BML.cv = (function () {
           show: 'blind',
           hide: 'blind',
           height: 300,
-          width: 750,
+          width: 600,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
           },
@@ -64,8 +64,8 @@ BML.cv = (function () {
           resizable: false,
           show: 'blind',
           hide: 'blind',
-          height: 300,
-          width: 500,
+          height: 325,
+          width: 450,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
           },
@@ -223,7 +223,7 @@ showSkills =  function() {
           resizable: false,
           show: 'blind',
           hide: 'blind',
-          height: 450,
+          height: 500,
           width: 400,
           open: function () {
              BML.$("#dialog-div").append(_dialogBody );
