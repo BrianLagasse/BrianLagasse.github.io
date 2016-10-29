@@ -210,7 +210,7 @@ showSkills =  function() {
       _dialogBody += "</table>";
       _dialogBody += "<br><table>";
       _dialogBody += "<tr><td span='3'><b>Databases</b></td></tr>"     
-      _dialogBody += "<tr><td align='center'>Oracle</td><td align='center'>SQL Server</td></tr>"
+      _dialogBody += "<tr><td></td><td align='center'>Oracle</td><td align='center'>SQL Server</td></tr>"
       _dialogBody += "</table>";
       _dialogBody += "<br><table>";
       _dialogBody += "<tr><td span='3'><b>SharePoint</b></td></tr>"     
