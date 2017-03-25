@@ -1,5 +1,6 @@
 var BML = BML || {};
 BML.$ = jQuery.noConflict();
+BML.$(".tabs").tabs();
 
 BML.cv = (function () {
    "use strict";
