@@ -6,6 +6,9 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 
+<link rel="stylesheet" type="text/css" href="/jquery-ui/jquery-ui.min.css" />
+<link rel="stylesheet" type="text/css" href="/jquery-ui/jquery-ui.structure.min.css" />
+<link rel="stylesheet" type="text/css" href="/jquery-ui/jquery-ui.theme.min.css" />
 
 <title>Portfolio</title>
 
@@ -13,64 +16,118 @@
 
 <body>
 
-<table>
-  <tr>
-    <td></td><td>
-      <h1> SharePoint 2010 </h1>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h2>  Out of the Box </h2>
-    </td>
-    <td>
-      <img src='images/ootb.jpg' width='900' height='500'/>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <h3> Default list form </h3>
-    </td>
-    <td>
-      <img src='/images/ootbList.jpg' width='900' height='500'/>
-    </td>
-  </tr>
+<div id="pf">
+	<div class="tabs">
+	    <ul class="ui-tabs-nav">
+	        <li><a href="#tabs-1">SharePoint 2010</a>
+	        </li>
+	        <li><a href="#tabs-2">SharePoint 2013</a>
+	        </li>
 
-  <tr>
-    <td>
-      <h2> After customizations </h2>
-    </td>
-    <td><h3>Table based interface</h3></td>
-  </tr>
-  <tr>
-    <td valign="top" width="15%">Create a Single Page App (SPA) for each business process role. The pages are permission trimmed by access group.  Each page consists of a Content Editor Webpart that links to a HTML page that contains the visual elements.  Logic is written in JavaScript and utilizes the jQuery library and jQuery Datatable plugin.</td>
-    <td>
-      <img src='/images/datatables.jpg' width='900' height='500'/>
-     </td>
-   </tr>
-   <tr>
-     <td></td>
-     <td><h3>Javascript dialog</h3></td>
-   </tr>
-    <tr>
-     <td valign="top" width="15%">After clicking an Action button in the app, a JavaScript dialog is displayed with the List data.  This dialog is displayed immediately as compared with the usual delay that SharePoint forms are shown.</td>
-     <td>
-       <img src='/images/dialog.jpg' width='600' height='600'/>
-     </td>
-   </tr>
-   <tr>
-     <td></td>
-     <td><h3>Modified SharePoint form</h3></td>
-   </tr>
-    <tr>
-     <td valign="top" width="15%">This is a SharePoint display form that has been modified with tabs using jQuery elements.  Additionally the default "Close"  button has been replaced with an anchor tag that directs the use back to the custom interface instead of the default list view.  The normal SharePoint ribbon has been hidden using css directives.  </td>
-     <td>
-       <img src='/images/modifiedForm.jpg' width='600' height='600'/>
-     </td>
-   </tr>
-</table>
+	    </ul>
+	    <div id="tabs-1">
+            <table>
+              <tr>
+                <td>
+                  <h2>  Out of the Box </h2>
+                </td>
+                <td>
+                  <img src='/images/ootb.jpg' width='900' height='500'/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h3> Default list form </h3>
+                </td>
+                <td>
+                  <img src='/images/ootbList.jpg' width='900' height='500'/>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <h2> After customizations </h2>
+                </td>
+                <td><h3>Table based interface</h3></td>
+              </tr>
+              <tr>
+                <td valign="top" width="15%">Create a Single Page App (SPA) for each business process role. The pages are permission trimmed by access group.  Each page consists of a Content Editor Webpart that links to a HTML page that contains the visual elements.  Logic is written in JavaScript and utilizes the jQuery library and jQuery Datatable plugin.</td>
+                <td>
+                  <img src='/images/datatables.jpg' width='900' height='500'/>
+                 </td>
+               </tr>
+               <tr>
+                 <td></td>
+                 <td><h3>Javascript dialog</h3></td>
+               </tr>
+                <tr>
+                 <td valign="top" width="15%">After clicking an Action button in the app, a JavaScript dialog is displayed with the List data.  This dialog is displayed immediately as compared with the usual delay that SharePoint forms are shown.</td>
+                 <td>
+                   <img src='/images/dialog.jpg' width='600' height='600'/>
+                 </td>
+               </tr>
+               <tr>
+                 <td></td>
+                 <td><h3>Modified SharePoint form</h3></td>
+               </tr>
+                <tr>
+                 <td valign="top" width="15%">This is a SharePoint display form that has been modified with tabs using jQuery elements.  Additionally the default "Close"  button has been replaced with an anchor tag that directs the use back to the custom interface instead of the default list view.  The normal SharePoint ribbon has been hidden using css directives.  </td>
+                 <td>
+                   <img src='/images/modifiedForm.jpg' width='600' height='600'/>
+                 </td>
+               </tr>
+ 			</table>
+	    </div>
+	    <div id="tabs-2"> 
+            <table>
+                <tr>
+                <td>
+                    <h2> After customizations </h2>
+                </td>
+                <td><h3>Tabbed Interface</h3></td>
+                </tr>
+                <tr>
+                <td valign="top" width="15%">Create a Single Page App (SPA) for each role Portal. The pages are permission trimmed by access group.  Each page consists of a Content Editor Webpart that links to a HTML page that contains the visual elements.  Logic is written in JavaScript and utilizes the jQuery library and Boostrap framework.</td>
+                <td>
+                    <img src='/images/bootstrap_tabs.jpg' width='900' height='500'/>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><h3>Accordian menu</h3></td>
+                </tr>
+                <tr>
+                    <td valign="top" width="15%">Alternative interface using same SharePoint backend. Accordian menu on the left is presented to end user who clicks on an item and sees the detail image in the main panel. </td>
+                    <td>
+                    <img src='/images/bootstrap_accordian_menu.jpg' width='900' height='500'/>
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td><h3>Detail screen</h3></td>
+                </tr>
+                <tr>
+                    <td valign="top" width="15%">After clicking select in the app, the user is presented with a detail screen of the item displaying areas of interest and provding a feedback form. </td>
+                    <td>
+                    <img src='/images/bootstrap_detail_screen.jpg' width='900' height='500'/>
+                    </td>
+                </tr>
+             </table>
+	    </div>
+	</div>
+</div>
 
 <a href="/">Home</a>
+
+
+<script type="text/javascript" src="/jquery-ui/external/jquery/jquery.js" ></script>
+<script type="text/javascript" src="/jquery-ui/jquery-ui.min.js"></script>
+
+<script type="text/javascript" src="/scripts/cv.js"></script>
+</body>
+
+</html>
+
+
 
 
 
